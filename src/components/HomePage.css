@@ -1,0 +1,26 @@
+.characters {
+    display: flex;
+    /* lay the childreb ub a row */
+    gap: 40px;
+    /* space between Rick and Morty */
+    justify-content: center;
+    /* center the pair horizontally */
+}
+
+.characters img{
+    width: 200px;
+    border-radius: 12px;
+}
+
+.streamingOptions {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+}
+.streamingOptions img{
+    height: 50px;
+    width: auto;
+
+}
